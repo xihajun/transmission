@@ -1,0 +1,4 @@
+yum install transmission-daemon -y
+service iptables stop
+/etc/rc.d/init.d/transmission-daemon start
+
